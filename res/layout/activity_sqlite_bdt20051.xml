@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SqliteActivityBDT20051">
+
+    <ListView
+        android:id="@+id/lvlinuoyan"
+        android:layout_width="361dp"
+        android:layout_height="283dp"
+        />
+
+    <Button
+        android:id="@+id/create_databaseslinuoayan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_buttonbdt20051"
+        android:text="浏览菜单"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/delete_databaseslinuoyan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_buttonbdt20051"
+        android:text="清除点单内容"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_databaseslinuoyan"
+        android:background="@drawable/round_buttonbdt20051"
+        android:textSize="20sp"
+        android:text="确定菜品"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询已经点单内容"
+        android:background="@drawable/round_buttonbdt20051"
+        android:textSize="20dp"
+        android:id="@+id/show"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/menuTextViewlinuoyan"
+        android:textSize="20sp"
+        android:text="菜单"
+        />
+
+
+</LinearLayout>
